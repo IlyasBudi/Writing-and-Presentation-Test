@@ -72,6 +72,20 @@ git init (dilakukan didalam folder yang dibuat)
   Content: Ini Heading <br />
   Closing tag: ``</h1>``
 - HTML Attribute adalah properties dari sebuah HTML Element. Contohnya: id, class, name.
-- HTML Comment digunakan untuk memberi keterangan pada suatu line code < -- -- > 
+- HTML Comment digunakan untuk memberi keterangan pada suatu line code ``<-- -->`` 
 - Agar tidak perlu reload saat ada perubahan pada file HTML maka bisa menggunakan extension “Live Server” pada Visual Studio Code.
 #### HTML Tag untuk menampilkan text
+- Heading: yang terbesar ``<h1>`` sampai ``<h6>`` yang terkecil.
+- Paragraph: ``<p>``
+- Link/Anchor: ``<a>``
+- List terdiri dari 2 tipe yaitu:<br />
+ 1. Ordered list: ``<ol>``<br />
+ 2. Unordered list: ``<ul>``
+#### HTML Tag untuk multimedia
+- Gambar: ``<img>``
+- Video: ``<video>``
+- Suara: ``<audio>``
+#### Semantic HTML
+- Semantic HTML yaitu menggunakan elemen HTML sesuai dengan kebutuhan konten. Contoh yaitu header, footer, nav, section, aside, dll.<br />
+HTML4: non-semantic<br />
+HTML5: Semantic
