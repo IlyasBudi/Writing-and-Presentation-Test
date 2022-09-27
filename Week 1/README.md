@@ -89,4 +89,5 @@ git init (dilakukan didalam folder yang dibuat)
 - Semantic HTML yaitu menggunakan elemen HTML sesuai dengan kebutuhan konten. Contoh yaitu header, footer, nav, section, aside, dll.<br />
 HTML4: non-semantic<br />
 HTML5: Semantic
-![Semantic vs ](configlist.jpg)
+![Semantic vs Non Semantic](semantic-vs-nonsemantic.png)
+## Day 3: CSS
