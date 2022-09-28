@@ -94,7 +94,7 @@ HTML5: Semantic
 - CSS adalah bahasa yang digunakan untuk mendesain halaman website.
 - Dengan CSS, kita bisa mengubah warna, menggunakan font custom, editing text format, mengatur tata letak, dan lainnya.
 - Ada 3 cara untuk menyisipkan CSS ke dalam HTML, yaitu:<br />
-1.	Inline CSS, yaitu menggunakan attribute style untuk menyisipkan kode CSS langsung di dalam HTML element.<br />
+1.	Inline CSS, yaitu menggunakan attribute style untuk menyisipkan kode CSS langsung di dalam HTML element <head>.<br />
 2.	Internal CSS, yaitu menggunakan element <style> untuk menyisipkan kode CSS. Element <style> tersebut diletakkan di dalam element <head>.<br />
 3.	External CSS, yaitu sebuah file CSS terpisah yang disambungkan dengan file HTML dengan menggunakan element <link>.
 - Cara mengakses file .CSS di HTML<br />
