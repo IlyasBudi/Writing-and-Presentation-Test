@@ -288,7 +288,7 @@ i <= 10; i++) {
 ```
 #### While Loop
 - While Loop: akan menjalankan instruksi pengulangan kondisi bernilai TRUE. 
-- While Loop jika kita tidak mengetahui jumlah pasti pengulangan.
+- While Loop digunakan jika kita tidak mengetahui jumlah pasti pengulangan.
 - Ada 2 macam While Loop yaitu, While dan Do While.
 - Contoh While Loop:
 ```
