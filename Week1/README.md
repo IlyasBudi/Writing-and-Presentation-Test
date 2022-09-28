@@ -27,7 +27,7 @@
 - Configurasi Git: email yang disetup HARUS SAMA dengan yang digunakan pada GITHUB.
 Git config –global user.name “IlyasBudi” <br />
 Git config –global user.email wjati145@gmail.com
-- Untuk melihat apakah setup berhasil dengan git config –list
+- Untuk melihat apakah setup berhasil dengan git config --list
 #### Repository Git
 - Repository adalah direktori proyek yang kita buat.
 - Membuat repository <br />
