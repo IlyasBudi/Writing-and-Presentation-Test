@@ -106,10 +106,10 @@ Selector {
   property: value;
 }
 ```
-- Tag Id dan Tag Class bisa dipake di css namun Tag Class lebih bersifat fleksibel karena dapat diberikan lebih dari 1 nilai sedangkan Tag Id bersifat kaku karena hanya memiliki 1 nilai.
+- Tag Id dan Tag Class bisa dipakai di css namun Tag Class lebih bersifat fleksibel karena dapat diberikan lebih dari 1 nilai sedangkan Tag Id bersifat kaku karena hanya memiliki 1 nilai.
 - !important CSS berada di level paling atas dari ID dan Class.
 #### Flexbox
-- Flexbox adalah suatu cara untuk mengatur layout atau tata letak
+- Flexbox adalah suatu cara untuk mengatur layout atau tata letak.
 - Flexbox memudahkan para programmer untuk mengatur layout, posisi, dan ukuran dari tiap element di dalamnya.
 - flex-direction: dapat menentukan arah item-item yang ada didalam container.
 - flex-warp: item pada flex akan mencoba masuk atau fit ke dalam satu baris atau row.
