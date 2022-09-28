@@ -309,4 +309,4 @@ do {
   i++;
 } while (i <= 10);
 ```
-- Nested Loop: digunakan jika ingin membuat perulangan di dalam perulangan.
+- Nested Loop: digunakan jika ingin membuat perulangan di dalam perulangan..
