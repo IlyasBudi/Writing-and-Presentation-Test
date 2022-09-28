@@ -91,3 +91,222 @@ HTML4: non-semantic<br />
 HTML5: Semantic
 ![Semantic vs Non Semantic](semantic-vs-nonsemantic.png)
 ## Day 3: CSS
+- CSS adalah bahasa yang digunakan untuk mendesain halaman website.
+- Dengan CSS, kita bisa mengubah warna, menggunakan font custom, editing text format, mengatur tata letak, dan lainnya.
+- Ada 3 cara untuk menyisipkan CSS ke dalam HTML, yaitu:<br />
+1.	Inline CSS, yaitu menggunakan attribute style untuk menyisipkan kode CSS langsung di dalam HTML element.<br />
+2.	Internal CSS, yaitu menggunakan element <style> untuk menyisipkan kode CSS. Element <style> tersebut diletakkan di dalam element.<br />
+3.	External CSS, yaitu sebuah file CSS terpisah yang disambungkan dengan file HTML dengan menggunakan element <link>.
+- Cara mengakses file .CSS di HTML<br />
+``<link href="styles.css" type="text/css" rel="stylesheet"/>``
+- CSS Syntax adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value.
+- Syntax nya seperti ini:<br />
+```
+Selector {
+  property: value;
+}
+```
+- Tag Id dan Tag Class bisa dipake di css namun Tag Class lebih bersifat fleksibel karena dapat diberikan lebih dari 1 nilai sedangkan Tag Id bersifat kaku karena hanya memiliki 1 nilai.
+- !important CSS berada di level paling atas dari ID dan Class.
+#### Flexbox
+- Flexbox adalah suatu cara untuk mengatur layout atau tata letak
+- Flexbox memudahkan para programmer untuk mengatur layout, posisi, dan ukuran dari tiap element di dalamnya.
+- flex-direction: dapat menentukan arah item-item yang ada didalam container.
+- flex-warp: item pada flex akan mencoba masuk atau fit ke dalam satu baris atau row.
+- justify-content: property ini memungkinkan kita mengkontrol atas penyelarasan (alignment) item flex yang berada di dalam container.
+- flex-start: semua item akan ditempatkan di depan.
+- flex-end: semua item akan ditempatkan di belakang.
+- center: akan menempatkan semua item ke tengah.
+- space-between: akan memberi ruang pada setiap dua item yang bersebelahan.
+- space-around: akan memberi ruang pada sekitar tiap item.
+## Day 4: Algoritma & Intro to Javascript
+## Algoritma
+- Algoritma adalah prosedur atau tahapan logis dalam memecahkan suatu masalah tertentu secara sistematis.
+- Ciri-ciri algoritma:<br />
+1.	Input: memiliki 0 atau lebih inputan.<br />
+2.	Output: Memiliki min 1 buah output.<br />
+3.	Definiteness: Instruksi jelas tidak ambigu.<br />
+4.	Finiteness: Memiliki titik berhenti (stop)<br />
+5.	Effectiveness: Sebisa mungkin tepat sasaran dan efisien.
+- Kenapa harus mempelajari algoritma:<br />
+1.	Membantu memecahkan permasalahan tertentu secara logis dan sistematis.<br />
+2.	dapat digunakan untuk membantu menyelesaikan masalah yang rumit dengan cara yang lebih sederhana.<br />
+3.	Memudahkan programmer memodifikasi program tanpa mengubah total algoritma dan mengulangnya dari awal.
+- Contoh algoritma:<br />
+```
+let umur = 10;
+umur += 5;
+
+console.log(umur);
+```
+## INTRO TO JAVASCRIPT
+- Javascript adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website.
+Javascript juga dapat membuat website menjadi interaktif dan dinamis
+- Pada Javascript dikenal dengan istilah Syntax dan Statement.
+- Syntax bisa dianalogikan seperti kosa kata (vocabulary) dan tata cara (grammar) pada bahasa pemograman.
+- Contoh syntax javascript:<br />
+  ``Alert()``<br />
+  ``Prompt()``<br />
+  ``Confirm()``
+- log adalah tempat kita untuk cek logic pemograman web yang kita kembangkan.
+- Console log juga tempat kita untuk melakukan debugging (mengetahui error pada code) pada pemograman web.
+Contoh comment:<br />
+  Single comment: ``//``<br />
+  Multiple line comment: ``/* */``
+Comments tidak akan dijalankan oleh program karena hanya untuk dibaca oleh sesama programmer ataupun diri sendiri untuk memahami maksud dan tujuan sebuah statement/syntax.
+#### Tipe data
+- Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang digunakan dalam programming.
+- Ada 6 macam tipe data fundamental pada javascript yaitu:<br />
+1. Number: tipe data yang mengandung semua jenis angka. Tipe data number ada 2 macam yaitu integer (terdiri dari bilangan bulat positif atau negatif) dan float (terdiri dari bilangan desimal)<br />
+2. String: tipe data yang terdiri dari huruf, angka, spasi maupun simbol.<br />
+3. Boolean: tipe data yang memiliki nilai true or false.<br />
+4. Null: tipe data pada sebuah data/variabel yang tidak memiliki nilai.<br />
+5. Undefined: tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai.<br />
+6. Object: Tipe data object dapat menyimpan data dengan tipe data apapun (number, string, boolean, dan lainnya).<br />
+#### Variabel 
+- variable adalah container/tempat untuk menyimpan sebuah nilai.
+- 3 hal yang dapat dilakukan variabel:<br />
+1.	Membuat variabel dengan nama yang jelas dan menggambarkan tentang data tersebut.<br />
+2.	Menyimpan dan mengupdate informasi/data yang disimpan.<br />
+3.	Mendapatkan/menampilan data yang tersimpan.
+- Ada 3 cara mendefinisikan sebuah variabel:<br />
+1. ``Var``<br />
+2. ``Let``<br />
+3. ``Const``
+#### Operator
+- Assignment operator (=): Assignment operator digunakan untuk menyimpan sebuah nilai pada variabel.<br />
+Contoh: ``let myName = “Ilyas Budi”;``
+- Mathematical assignment operator, Contohnya:
+```
+Let x = 4;
+X = x + 1;
+Console.log(x);
+```
+- Increment dan Decrement: Gunakan increment atau decrement untuk menambah atau mengurangi sebesar 1 nilai. Contohnya:
+```
+Let a = 10;
+a++
+console.log(a);
+```
+- Arithmetic Operator digunakan apabila melibatkan operasi matematika:<br />
+  Pertambahan ``(+)``<br />
+  Pengurangan ``(-)``<br />
+  Perkalian ``(*)``<br />
+  Pembagian ``(/)``<br />
+  Modulus ``(%)``
+- Comparison operator: adalah operator yang membandingkan satu nilai dengan nilai lainnya.
+  Lebih Besar ``(>)``<br />
+  Lebih Kecil ``(<)``<br />
+  Lebih kecil atau samadengan ``(<=)``<br />
+  Lebih besar atau samadengan ``(>=)``<br />
+  Samadengan ``(===)``<br />
+  Tidak Samadengan ``(!==)``
+- Logical Operator digunakan untuk sebuah kondisi:<br />
+  AND operator ``(&&)``<br />
+  OR operator ``(||)``<br />
+  NOT operator ``(!)``
+## Day 5: Javascript Conditional & Looping
+## Javascript Conditional
+- Conditional merupakan statement percabangan yang menggambarkan suatu kondisi.
+- Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut.
+#### IF Statement
+- Contohnya:<br />
+Jika lelah, maka kita akan istirahat<br />
+Jika lapar, kita akan makan
+#### IF…ELSE Statement
+- IF ELSE merupakan instruksi dasar yang hanya memungkinkan kita untuk melakukan pemeriksaan apakah suatu kondisi terpenuhi atau tidak terpenuhi.<br />
+Contoh conditional IF Else Statement:
+```
+Let lapar = false;
+If (lapar) {
+    Console.log(“Yuk makan”);
+} Else {
+    Console.log(“Tidak makan”;
+}
+```
+#### IF…ELSE…IF Statement
+- IF…Else … If statement dapat kita gunakan jika kita mempunyai berbagai kondisi.<br />
+Contoh conditional IF Else IF Statement:
+```
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+```
+#### Switch Case Conditional
+- Switch case digunakan jika kondisi dan percabangan terlalu banyak.<br />
+Contoh conditional Switch Case:
+```
+switch (warna){
+  case "hitam":
+		teks = "warna hitam";
+		break;
+	case "merah":
+		teks = "Warna merah";
+		break;
+	case "hijau":
+		teks = "Warna hijau";
+		break;
+	default:
+	    teks = "Warna tidak terdeteksi";
+}
+```
+#### Ternary Operator
+- Ternary operator merupakan short-syntax dari statement if … else.
+- Operator ini biasanya digunakan ketika kita ingin mengubah nilai variabel berdasarkan kondisi percabangan.<br />
+Contoh Conditional Ternary Operator:
+```
+const nilai = 76;
+let pesan;
+
+if (nilai > 70) {
+  pesan = 'Selamat Anda lulus.';
+} else {
+  pesan = 'Maaf, Anda tidak lulus.';
+}
+
+console.log(pesan); // Selamat Anda lulus.
+```
+## Javascript Looping
+- Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
+- Ada 3 macam Looping dalam Javascript yaitu:<br />
+1. For Loop<br />
+2. While Loop<br />
+3. Nested Loop
+#### For Loop
+- For Loop merupakan instruksi pengulangan yang dapat kita berikan pada program yang kita kembangkan.
+- For Loop digunakan jika kita tahu seberapa banyak nilai pasti untuk pengulangannya.<br />
+Contoh For Loop:
+```
+for (let i = 1;
+i <= 10; i++) {
+  console.log(i);
+}
+```
+#### While Loop
+- While Loop: akan menjalankan instruksi pengulangan kondisi bernilai TRUE. 
+- While Loop jika kita tidak mengetahui jumlah pasti pengulangan.
+- Ada 2 macam While Loop yaitu, While dan Do While.
+- Contoh While Loop:
+```
+let i = 1;
+
+while (i <= 10) {
+  console.log(i);
+  i++;
+}
+```
+- Do While: Apabila dalam perulangan While kondisi di cek pada awal perulangan, pada perulangan Do While, kondisi perulangan di cek pada akhir perulangan.
+- Contoh Do While:
+```
+let i = 1;
+
+do {
+  console.log(i);
+  i++;
+} while (i <= 10);
+```
+- Nested Loop: digunakan jika ingin membuat perulangan di dalam perulangan.
