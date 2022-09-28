@@ -212,7 +212,7 @@ console.log(a);
 #### IF Statement
 - Contohnya:<br />
 Jika lelah, maka kita akan istirahat<br />
-Jika lapar, kita akan makan
+Jika lapar, maka kita akan makan
 #### IF…ELSE Statement
 - IF ELSE merupakan instruksi dasar yang hanya memungkinkan kita untuk melakukan pemeriksaan apakah suatu kondisi terpenuhi atau tidak terpenuhi.<br />
 Contoh conditional IF Else Statement:
