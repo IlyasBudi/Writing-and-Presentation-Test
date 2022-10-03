@@ -93,7 +93,7 @@ Tipe data akan otomatis dideteksi oleh JavaScript saat variabel tersebut diberik
 6.	Object (non-primitif): sebuah kumpulan pasangan properti dan nilai.
 - Perbedaan tipe data primitif dan non-primitif:
 - Perbedaan paling mendasar antara keduanya pada JavaScript adalah tipe data primitif memiliki sifat immutable dan tidak memiliki properties sementara tipe data non-primitif bersifat mutable dan memiliki properties.
-## PROTOTYPE AND METHOD
+## Prototype and Method
 #### String
 ##### Property<br />
   - Length: Digunakan untuk mengetahui panjang karakter pada string.
