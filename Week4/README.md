@@ -116,3 +116,4 @@ Bootstrap 5
 - Grid System pada bootstrap merupakan pengaturan ukuran yang di tampilkan pada monitor. grid system berfungsi untuk membuat pengaturan untuk lebar dari masing-masing komponen web sehingga kita dapat dengan bebas mengatur ke-responsif an halaman website yang kita buat dengan bootstrap.
 - Bootstrap memiliki 12 grid. yang nantinya kita akan dapat menggunakan class berikut ini untuk mengatur keresponsive an halaman website dengan mengaturnya menggunakan 12 grid bootstrap. 
 
+
